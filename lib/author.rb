@@ -15,3 +15,4 @@ class Author
   def add_post(post)
     post.add_post = self
   end
+end
