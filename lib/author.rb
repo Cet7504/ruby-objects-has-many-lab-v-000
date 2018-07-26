@@ -13,6 +13,5 @@ class Author
   end
 
   def add_post(post)
-    self.add_post = post
+    post.add_post = self
   end
-    
