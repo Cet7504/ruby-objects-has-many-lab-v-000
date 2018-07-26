@@ -11,4 +11,8 @@ class Post
   def self.all
     @@all
   end
+
+  def add_post
+    @@all << title
+  end
 end
