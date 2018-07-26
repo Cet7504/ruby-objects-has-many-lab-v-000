@@ -12,7 +12,11 @@ class Post
     @@all
   end
 
-  def add_post
-    @@all << title
+  def author_name
+    if self.author
+      self.author.name
+    else
+      nil
+    end
   end
 end
