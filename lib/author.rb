@@ -11,3 +11,8 @@ class Author
   def self.all
     @@all
   end
+
+  def add_post(post)
+    self.add_post = post
+  end
+    
